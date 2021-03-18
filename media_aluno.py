@@ -37,5 +37,3 @@ while escolha != sair :
         print (red+"vc saiu do sistema")
         break
 
-
-power by valney
