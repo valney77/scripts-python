@@ -21,18 +21,18 @@ while escolha != sair :
     nota_one = float (nota)
     nota_tree = float (nota_x)
     tres = int(3)
-    def diversao (n1,n2,n3,n4):
+    def valores (n1,n2,n3,n4):
         return (n1+n2+n3)/n4
-    media = diversao (nota_one,nota_two,nota_tree,tres)
+    media = valores (nota_one,nota_two,nota_tree,tres)
     me = float(media)
     if (me < 6) :
-        print (red+"\n o aluno de nome :{} teve media de {} e foi repr>
+        print (red+"\n o aluno de nome :{} teve media de {} e foi reprovado.".format(num_aluno,me))
     else:
-        print (green+"\n o aluno de nome :{} teve media  {} e foi  apr>
-    print (blue+"\n obrigado por usar este script,tenha um otimo dia !>
+        print (green+"\n o aluno de nome :{} teve media  {} e foi  aprovado".format(num_aluno,me))
+    print (blue+"\n obrigado por usar este script,tenha um otimo dia !")
     print ("\n(1)sair\n(2)verificar aluno")
 
-    escolha = int (input(blue+"\n voce deseja sair o verificar media d>
+    escolha = int (input(blue+"\n voce deseja sair o verificar media de outro aluno?\n"+orange))
     if escolha != cont :
         print (red+"vc saiu do sistema")
         break
