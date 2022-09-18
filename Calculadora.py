@@ -1,10 +1,13 @@
 from os import system
 
+systen('clear')
+
 try:
     while True:
 
-        system('clear')
-        print ('calculadora em python\n\n'.center(50))
+        print ('''+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+
+|c|a|l|c|u|l|a|d|o|r|a| |p|y|t|h|o|n|
++-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+'''\n\n)
         operador = int(input('[1]adiçao\n[2]subtração\n[3]multiplicação\n[4]divisão\n[5]sair\n»»'))
         if (operador == 5):
             print ('saiu com sucesso!')
