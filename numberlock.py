@@ -15,10 +15,8 @@ ____  __  ______ ___  ___  _________     ____/ /___ _
 /____/\____/_/   \__/\___/\n\n''')
 numero = int(input('digite quantos numero vai precisar numero : ').center(50))
 contador = 0
-T=0
 
 for contador in range(1, numero +1):
-    T+=0
 
     numero_sorte = randint(1,100)
     sleep(5)
