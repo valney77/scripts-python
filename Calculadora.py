@@ -31,4 +31,4 @@ try:
 except ValueError:
     print ('digite uma entrada valida'.center(50))
 
-# powered by :2M date:12/09/2020
+# powered by :valney date:12/09/2020
