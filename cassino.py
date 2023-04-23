@@ -1,12 +1,16 @@
 from random import randint
 from time import sleep
+from os import system
+
+
+System('clear')
 
 #cores
-
+cor = '\033[40;05;35'
 red = '\033[40;05;31m'
 green = '\033[40;05;32m'
 cyan = '\033[40;05;30m'
-print ('''__
+print (cor+'''__
   _________  / /___  ______________ ______
  / ___/ __ \/ / __ \/ ___/ ___/ __ `/ ___/
 / /__/ /_/ / / /_/ / /  / /__/ /_/ (__  )
